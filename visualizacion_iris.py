@@ -23,3 +23,12 @@ plt.title('Largo de pétalo por especie')
 plt.tight_layout()
 plt.savefig('boxplot_petal_length.png')
 plt.show()
+
+# Gráfico 3: Dispersión largo vs. ancho de pétalo, coloreado por especie
+sns.scatterplot(data=df, x='petal_length', y='petal_width', hue='species')
+plt.title('Dispersión: largo vs. ancho de pétalo por especie')
+plt.xlabel('Largo de pétalo')
+plt.ylabel('Ancho de pétalo')
+plt.tight_layout()
+plt.savefig('scatter_petal_length_vs_width.png')
+plt.show()
