@@ -32,3 +32,5 @@ plt.ylabel('Ancho de pétalo')
 plt.tight_layout()
 plt.savefig('scatter_petal_length_vs_width.png')
 plt.show()
+
+print("Este es un nuevo gráfico")
