@@ -53,7 +53,8 @@ plt.title('Distribución del largo de sépalo')
 plt.xlabel('Largo de sépalo (cm)')
 plt.ylabel('Frecuencia')
 plt.tight_layout()
-plt.savefig('histograma_sepal_length_Nuevo.png')
+plt.savefig('histograma_sepal_length_Nuevo_R.png')
 plt.show()
 
-print("IDIA URP")
+Esto es una prueba para kevinrrbrandes
+
