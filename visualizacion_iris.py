@@ -45,3 +45,13 @@ plt.ylabel('Ancho de pétalo')
 plt.tight_layout()
 plt.savefig('scatter_petal_length_vs_width.png')
 plt.show()
+
+# --- Nueva dispersion de largo de sépalo ---
+plt.figure(figsize=(6,4))
+sns.histplot(iris['sepal_length'], bins=10, kde=True)
+plt.title('Distribución del largo de sépalo')
+plt.xlabel('Largo de sépalo (cm)')
+plt.ylabel('Frecuencia')
+plt.tight_layout()
+plt.savefig('histograma_sepal_length.png')
+plt.show()
