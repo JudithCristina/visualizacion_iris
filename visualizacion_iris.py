@@ -13,7 +13,7 @@ print(df.head())
 
 # Gráfico 1: Cantidad de flores por especie
 df['species'].value_counts().plot(kind='bar')
-plt.title('Cantidad de flores por especie')
+plt.title('Cantidad de flores por especie xxxxxx')
 plt.xlabel('Especie')
 plt.ylabel('Cantidad')
 plt.tight_layout()
