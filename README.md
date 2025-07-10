@@ -34,3 +34,5 @@ Este repositorio contiene un script en Python para visualizar el dataset clásic
 - En **Windows** (la mayoría de veces):
   ```sh
   pip install pandas seaborn matplotlib
+
+## Ok
