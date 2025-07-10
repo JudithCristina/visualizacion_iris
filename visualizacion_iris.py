@@ -2,14 +2,11 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
 # Cargar el dataset Iris desde seaborn
 df = sns.load_dataset('iris')
 
-
 # Mostrar las primeras filas
 print(df.head())
-
 
 # Gráfico 1: Cantidad de flores por especie
 df['species'].value_counts().plot(kind='bar')
